@@ -1,0 +1,13 @@
+name: Myapps
+title: Myapps
+username: expenseanalizer
+account: expenseanalizer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10401407
+bundleId: 7883578
+url: https://expenseanalizer.shinyapps.io/Myapps/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|April_2023_ANZ.xlsx|AprilB_2023_ANZ.xlsx|combined_file.xlsx|db8d293b20eb43478f3efa3879213115/db8d293b20eb43478f3efa3879213115|db8d293b20eb43478f3efa3879213115.tar|RScript_for_ANZ.R|Yea_to_Nov.xlsx|Yea_to_NovB.xlsx

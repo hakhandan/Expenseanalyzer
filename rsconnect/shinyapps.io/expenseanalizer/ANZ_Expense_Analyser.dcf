@@ -1,0 +1,13 @@
+name: ANZ_Expense_Analyser
+title: ANZ_Expense_Analyser
+username: expenseanalizer
+account: expenseanalizer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10401567
+bundleId: 7954802
+url: https://expenseanalizer.shinyapps.io/ANZ_Expense_Analyser/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|A.csv|Ac.csv|ADec_2021.xlsx|all_2022.xlsx|all_2022_B.xlsx|all_2022_Creditcard.xlsx|Analyzer_v1/app.R|April_2022.xlsx|April_2022B.xlsx|April_2022C.xlsx|Aug_2023.xlsx|Aug_2023B.xlsx|Aug_2023C.xlsx|B.csv|custom_kindy.xlsx|custom_kindyB.xlsx|Dec_2021B.xlsx|del6/app.R|del6/new_data.xlsx|del6/new_dataset.xlsx|diff_rows.csv|differences.csv|expense_dashbora_austrlia/b9377455891f1f02750dc0c3681f1063-9284638a230f9d78cd3640c5eefa9e146eb7aa0f/person_fin_dash.Rmd|expense_dashbora_austrlia.zip|extrs_row.xlsx|filtered_data (1).csv|filtered_data.csv|Intersting_code/app.R|labR.csv|March_2023.xlsx|March_2023_B.xlsx|March_2023_C.xlsx|Nov-1.xlsx|Nov-2.xlsx|Nov_2022-2023C.xlsx|Nov_2023.xlsx|Nov_2023B.xlsx|Nov2022-2023.xlsx|Nov2022-2023B.xlsx|Oct_2023.xlsx|Oct_2023B.xlsx|RScript_for_ANZ.R|similar_rows.xlsx|Test.csv|Test.xlsx|Yea_to_Nov.xlsx|Yea_to_NovB.xlsx
