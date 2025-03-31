@@ -189,7 +189,7 @@ server <- function(input, output) {
   
   # Define the list of keywords for each category
   category_keywords <- list(
-    Groceries = c("The Fruit Sh","Four Square	","Hanna","Nastaran ","Mediterranea","Super Liquor", "Shopping","Shopping", "Nespresso Nz", "Moshims", "Newtown Green Grocer", "Harbourside Market", "Pak N Save P", "Pak N Save K", "Morteza Bake", "Countdown Ka", "New World Th", "Wellington Halal Mea", "Moore Wilsons", "New World Oh", "Halal Meat S"),
+    Groceries = c("The Fruit Sh","3798","Four Square	","Hanna","Nastaran ","Mediterranea","Super Liquor", "Shopping","Shopping", "Nespresso Nz", "Moshims", "Newtown Green Grocer", "Harbourside Market", "Pak N Save P", "Pak N Save K", "Morteza Bake", "Countdown Ka", "New World Th", "Wellington Halal Mea", "Moore Wilsons", "New World Oh", "Halal Meat S"),
     
     Eat_out = c("Wellington S","Burger","Old Baily","Basin Noodle","Number One","Home","Burger King","Bethel Woods", "Flying Burri", "Kilim", "Aroy Thai Th", "The Old Bail", "Brumbys", "Cafe Vue - M", "Bubee Drinks", "Mcdonalds Pe", "Corfu Seafoods", "Hell Pizza N", "Mojo Tahi", "Lunchonline", "Subway Mulgr", "Mcdonalds Ta", "Sakura Sushi", "Pizza Hut", "Mcdonalds Ne", "The Warehous", "Subway Karor", "Pizza Hut Ka", "Play Queensg", "Karori Park", "Mcdonalds Lo", "Umi Sushi", "Nando'S Lowe", "Noodle Plus Woodward", "Cafe On The", "Coffix Moles", "Lunch Box", "Domino"),
     
