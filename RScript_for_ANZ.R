@@ -19,7 +19,7 @@ library(ggplotify)
 
 # Define the check_for_keywords function
 check_for_keywords <- function(data) {
-  keywords <- c("Transfer", "Me Bnz", "Clearing House Ltd", "Western Unio", "Gm Imt", "Emirates", "Rav4", "Georgian National Un")
+  keywords <- c("Transfer", "Me Bnz", "Clearing House Ltd", "Western Unio", "Gm Imt","Me Bnz2","Me Bnz", "Emirates", "Rav4", "Georgian National Un")
   has_keywords <- apply(data, MARGIN = 1, function(row) any(grepl(paste(keywords, collapse = "|"), row, ignore.case = TRUE)))
   return(data[!has_keywords, ])
 }
@@ -104,16 +104,16 @@ server <- function(input, output) {
   
   # Define the list of keywords for each category
   category_keywords <- list(
-    Groceries = c("The Fruit Sh","3798","Shopping", "Moshims", "Newtown Green Grocer", "Harbourside Market", "Pak N Save P", "Pak N Save K", "Morteza Bake", "Countdown Ka", "New World Th", "Wellington Halal Mea", "Moore Wilsons", "New World Oh", "Halal Meat S"),
-    Eat_out = c("Wellington S", "Cafe Vue - M", "Bubee Drinks", "Mcdonalds Pe", "Corfu Seafoods", "Hell Pizza N", "Mojo Tahi", "Lambton Squa", "Lunchonline", "Subway Mulgr", "Mcdonalds Ta", "Sakura Sushi", "Pizza Hut", "Mcdonalds Ne", "The Warehous", "Subway Karor", "Pizza Hut Ka", "Play Queensg", "Karori Park", "Mcdonalds Lo", "Umi Sushi", "Nando'S Lowe", "Noodle Plus Woodward", "Cafe On The", "Coffix Moles", "Lunch Box"),
-    Clothing_etc = c("St Pierre'S", "Mcdonalds La", "Paperplusselect Karo", "Mitre 10 Cro", "Farmers", "Kmart - Peto", "Postie Queen", "Rebel Wellin", "Delaware Nor", "H&M", "Briscoes Wel", "Farmers Queen"),
+    Groceries = c("The Fruit Sh","3798","Shopping", "Moshims", "Newtown Green Grocer","Amex", "Harbourside Market", "Pak N Save P", "Pak N Save K", "Morteza Bake", "Countdown Ka", "New World Th", "Wellington Halal Mea", "Moore Wilsons", "New World Oh", "Halal Meat S"),
+    Eat_out = c("Wellington S","Korean Fried","Marsden Vill","Noah'S Ark T", "Cafe Vue - M", "Bubee Drinks", "Mcdonalds Pe", "Corfu Seafoods", "Hell Pizza N", "Mojo Tahi", "Lambton Squa", "Lunchonline", "Subway Mulgr", "Mcdonalds Ta", "Sakura Sushi", "Pizza Hut", "Mcdonalds Ne", "The Warehous", "Subway Karor", "Pizza Hut Ka", "Play Queensg", "Karori Park", "Mcdonalds Lo", "Umi Sushi", "Nando'S Lowe", "Noodle Plus Woodward", "Cafe On The", "Coffix Moles", "Lunch Box"),
+    Clothing_etc = c("St Pierre'S","Midi Lambton", "Mcdonalds La", "Paperplusselect Karo", "Mitre 10 Cro", "Farmers", "Kmart - Peto", "Postie Queen", "Rebel Wellin", "Delaware Nor", "H&M", "Briscoes Wel", "Farmers Queen"),
     Commute = c("Snapper Serv", "Bp 2Go Newla", "Wcc Parking", "Aa Insurance Pre", "Museum Of Nz", "Care Park We", "Museum Of Ne", "Nz Transport", "Bp 2Go Karor", "New World Fuel Levin", "Bp Connect T", "Aksal Motors Limited"),
     Entertainment = c("Spotify P24E", "Dellmont.Com", "Fifa", "Apple.Com/Bi", "Netflix"),
     Health = c("Unichem Mole", "Karori Medic", "Unichem Well", "Unichem Karo", "Southern Cross Healt"),
     Internet_power = c("2Degrees Mob", "Mercury Nz Ltd", "2Degrees", "Two Degrees Nz Ltd"),
     Childcare = c("Kindercare Learning"),
     Loan = c("Gem Visa"),
-    Arta_Piano = c("Raewyn Brockway"),
+    Arta = c("Raewyn Brockway", "Goblin Games"),
     Rent = c("Dwelling Property")
   )
   
